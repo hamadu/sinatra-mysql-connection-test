@@ -1,3 +1,10 @@
+# sinatra-mysql-connection-test
+
+just for test
+
+execute bellow on mysql
+
+```
 create database writeapp_sinatra default character set utf8mb4;
 
 create table users ( 
@@ -6,3 +13,5 @@ create table users (
   score BIGINT NOT NULL,
   PRIMARY KEY(id)
 );
+```
+
